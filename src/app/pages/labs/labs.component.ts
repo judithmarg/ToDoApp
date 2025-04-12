@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-labs',
+  imports: [],
+  templateUrl: './labs.component.html',
+  styleUrl: './labs.component.css'
 })
-export class AppComponent {
+export class LabsComponent {
   welcome = 'Hola a todo el mundo';
   tasks = [
     'Instalar angular cli',
