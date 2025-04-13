@@ -14,5 +14,6 @@ export class AppComponent {
     'crear proyecto',
     'crear componentes',
     'crear servicios',
-  ]
+  ];
+  private pruebita = 'No puedes acceder a esta info.'
 }
