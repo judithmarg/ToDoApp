@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { count } from 'rxjs';
 
 @Component({
   selector: 'app-labs',
@@ -16,4 +17,12 @@ export class LabsComponent {
     'crear servicios',
   ];
   name = 'Judith';
+  disabled = true;
+  image = "https://m.media-amazon.com/images/I/51kYPJJl3IL.jpg";
+
+  person = {
+    name: 'Evelin',
+    age: '22',
+    country: 'Bolivia',
+  }
 }
